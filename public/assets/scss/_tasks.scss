@@ -1,0 +1,52 @@
+/* ==== Tasks =======*/
+
+.task-card{
+	padding: 1em;
+	margin: 0.5em 0;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+
+	.task-name{
+		letter-spacing: 1px;
+	}
+
+	.description-container{
+		height: 60px;
+	}
+
+	input{
+		margin: 0 0 8px 0;
+	}
+
+	.glyphicon,
+	.counter{
+		color: #999;
+	}
+	
+	span{
+		transition: all 0.2s;
+	}
+
+	span:hover .glyphicon,
+	span:hover .counter{
+		color: blue;
+		cursor: pointer;
+	}
+}
+
+.new-task{
+
+	input{
+		margin-top: 1em;
+	}
+
+	button{
+		margin-top: 0.5em;
+	}
+
+}
+
+
+
+

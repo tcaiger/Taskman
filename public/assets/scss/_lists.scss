@@ -1,0 +1,45 @@
+/* ==== Lists =======*/
+
+.list{
+	position: relative;
+	min-width: 250px;
+	margin-right: 1em;
+	&:hover .destroy-list{
+		color: #999;
+	}
+	.list-name{
+		letter-spacing: 1px;
+		&:hover{
+			cursor: pointer;
+			text-decoration: underline;
+		}
+	}
+	
+
+	.list-container{
+		padding: 50px 1em;
+		width: 10000px;
+	}
+
+	.destroy-list{
+		position: absolute;
+		top: 1em;
+		right: 1em;
+		color: transparent;
+		transition: all 0.5s;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+}
+
+.add-list button{
+	margin-top: 0.5em;
+}
+
+
+
+
+
+
+

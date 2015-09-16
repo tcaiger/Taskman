@@ -1,0 +1,30 @@
+/* ==== Base =======*/
+body {
+    -webkit-font-smoothing: antialiased;
+    padding-top: 50px;
+}
+
+.navbar-brand{
+	letter-spacing: 2px;
+}
+
+.lists-container{
+	padding: 0 15px;
+}
+
+h2{
+	padding-left: 15px;
+	letter-spacing: 1px;
+}
+/* ======= Form ======*/
+
+form{
+	max-width: 200px;
+	margin: 2em auto;
+}
+
+label.error,
+p.error{
+	font-weight: bold;
+	color: tomato;
+}

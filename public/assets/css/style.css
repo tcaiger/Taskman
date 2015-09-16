@@ -1,0 +1,148 @@
+/* ==== Flexbox =======*/
+.flex {
+  display: flex; }
+
+.flex-row {
+  flex-direction: row; }
+
+.flex-column {
+  flex-direction: column; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
+.flex-j-start {
+  justify-content: flex-start; }
+
+.flex-j-end {
+  justify-content: flex-end; }
+
+.flex-j-center {
+  justify-content: center; }
+
+.flex-j-between {
+  justify-content: space-between; }
+
+.flex-a-start {
+  align-items: flex-start; }
+
+.flex-a-end {
+  align-items: flex-end; }
+
+.flex-a-center {
+  align-items: center; }
+
+.flex-a-stretch {
+  align-items: stretch; }
+
+.flex-1 {
+  flex: 1; }
+
+.flex-2 {
+  flex: 2; }
+
+.flex-3 {
+  flex: 3; }
+
+.flex-4 {
+  flex: 4; }
+
+/* ==== Base =======*/
+body {
+  -webkit-font-smoothing: antialiased;
+  padding-top: 50px; }
+
+.navbar-brand {
+  letter-spacing: 2px; }
+
+.lists-container {
+  padding: 0 15px; }
+
+h2 {
+  padding-left: 15px;
+  letter-spacing: 1px; }
+
+/* ======= Form ======*/
+form {
+  max-width: 200px;
+  margin: 2em auto; }
+
+label.error,
+p.error {
+  font-weight: bold;
+  color: tomato; }
+
+/* ==== Lists =======*/
+.list {
+  position: relative;
+  min-width: 250px;
+  margin-right: 1em; }
+  .list:hover .destroy-list {
+    color: #999; }
+  .list .list-name {
+    letter-spacing: 1px; }
+    .list .list-name:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+  .list .list-container {
+    padding: 50px 1em;
+    width: 10000px; }
+  .list .destroy-list {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: transparent;
+    transition: all 0.5s; }
+    .list .destroy-list:hover {
+      cursor: pointer; }
+
+.add-list button {
+  margin-top: 0.5em; }
+
+/* ==== Tasks =======*/
+.task-card {
+  padding: 1em;
+  margin: 0.5em 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px; }
+  .task-card .task-name {
+    letter-spacing: 1px; }
+  .task-card .description-container {
+    height: 60px; }
+  .task-card input {
+    margin: 0 0 8px 0; }
+  .task-card .glyphicon,
+  .task-card .counter {
+    color: #999; }
+  .task-card span {
+    transition: all 0.2s; }
+  .task-card span:hover .glyphicon,
+  .task-card span:hover .counter {
+    color: blue;
+    cursor: pointer; }
+
+.new-task input {
+  margin-top: 1em; }
+.new-task button {
+  margin-top: 0.5em; }
+
+/* ==== Comments =======*/
+.comment {
+  padding-bottom: 1em; }
+  .comment .time {
+    color: #999; }
+
+.comment-img {
+  margin-right: 1em;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 3px; }
+  .comment-img img {
+    width: 70px;
+    height: auto;
+    margin-left: -7px;
+    margin-top: -5px; }
+
+/*# sourceMappingURL=style.css.map */
